@@ -1,0 +1,83 @@
+body {
+    background-attachment: fixed;
+}
+
+div {
+    display: block;
+}
+
+canvas {
+    width: 100%;
+    height: 100%
+}
+
+.main {
+    max-width: 300px;
+    height: 500px;
+    max-height: 500px;
+    border: 0px solid #eee;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 1px 1px 5px 5px rgba(128, 128, 128, 0.4);
+    -moz-box-shadow: 1px 1px 5px 5px rgba(128, 128, 128, 0.4);
+    border-radius: 5px;
+}
+
+.main img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    border-radius: 5px 5px 0 0;
+}
+
+.logo {
+    float: left;
+    line-height: 100px;
+    margin-left: 20px;
+}
+
+.content {
+    line-height: 100px;
+    /* margin: 0 auto; */
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/*  进度条 */
+
+#myProgress {
+    width: 100%;
+    background-color: #ddd;
+}
+
+#myBar {
+    width: 0%;
+    height: 10px;
+    background-color: rgb(255, 58, 117);
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+.eas1cn a {
+    margin: 0 auto;
+    width: 100px;
+    display: block;
+}
+
+.footer {
+    /* text-decoration: none; */
+    text-align: center;
+    line-height: 60px;
+}
+
+.footer a,
+.footer a:hover,
+.footer a:active,
+.footer a:link,
+.footer a:visited {
+    color: #000;
+    text-decoration: none;
+}
