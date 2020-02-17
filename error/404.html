@@ -109,6 +109,7 @@
                         <img src="https://file.kaygb.top/static_image/kaygb-logo/tx.png" alt="风也温柔">
 
                     </div>
+                    <!-- 进度条 -->
                     <div id="myProgress">
                         <div id="myBar"></div>
                     </div>
@@ -138,9 +139,12 @@
         </div>
     </div>
     <script>
+        var newurl = "eas1.cn"; //新域名
+
+
         // 替换域名链接
         function goUrl() {
-            window.location.href = window.location.href.replace(/kaygb.me/, "eas1.cn");
+            window.location.href = window.location.href.replace(/kaygb.me/, newurl);
         }
 
         move(); //调用进度条
@@ -155,7 +159,7 @@
                     clearInterval(id);
 
                     var url = window.location.href;
-                    newurl = url.replace(/kaygb.me/, "eas1.cn");
+                    newurl = url.replace(window.location.hostname, newurl);
                     // window.location.href = newurl;
                     console.log("当前地址已转换：");
                     console.log(newurl);
