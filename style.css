@@ -1,0 +1,97 @@
+.left {
+    background-color: green;
+    width: 30vw;
+    /* min-width: 30vh; */
+    height: 100vh;
+    position: absolute;
+    z-index: -9999;
+    animation: myfirst 5s;
+    -webkit-animation: left1 5s;
+    /* Safari 与 Chrome */
+}
+
+@keyframes left1 {
+    0% {
+        background: red;
+        left: -60vh;
+        top: 0px;
+    }
+    50% {
+        background: blue;
+        left: -10vw;
+        top: 0px;
+    }
+    100% {
+        background: green;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+@-webkit-keyframes left1
+/* Safari 与 Chrome */
+
+{
+    0% {
+        background: red;
+        left: -60vh;
+        top: 0px;
+    }
+    50% {
+        background: blue;
+        left: -10vw;
+        top: 0px;
+    }
+    100% {
+        background: green;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.box1 {
+    animation: box1 5s;
+    -webkit-animation: box1 5s;
+    width: 10vw;
+    height: 50px;
+    position: absolute;
+    background-color: yellow;
+    top: 100px;
+    left: 30vw;
+}
+
+@keyframes box1 {
+    0% {
+        background: yellow;
+        left: -30vw;
+        top: 100px;
+    }
+    50% {
+        background: yellow;
+        left: 10vw;
+        top: 100px;
+    }
+    100% {
+        background: yellow;
+        left: 30vw;
+        top: 100px;
+    }
+}
+
+.header h1 {
+    float: left;
+    color: #fff;
+    animation: biaoti 3s;
+}
+
+@keyframes biaoti {
+    0% {
+        color: rgba(255, 255, 255, 0);
+    }
+    50% {
+        color: rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        color: rgba(255, 255, 255, 1);
+    }
+}
