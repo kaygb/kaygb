@@ -1,12 +1,28 @@
+body {
+    animation: bodyimg 1s;
+}
+
+@keyframes bodyimg {
+    0% {
+        /* background: rgba(255, 255, 255, 1); */
+        opacity: 0;
+    }
+    100% {
+        /* background: rgba(255, 255, 255, 0); */
+        opacity: 1;
+    }
+}
+
 .left {
-    background-color: green;
+    background-color: #00b894;
     width: 30vw;
     /* min-width: 30vh; */
     height: 100vh;
     position: absolute;
     z-index: -9999;
-    animation: myfirst 5s;
-    -webkit-animation: left1 5s;
+    animation: myfirst 2s;
+    -webkit-animation: left1 2s;
+    opacity: 0.5;
     /* Safari 与 Chrome */
 }
 
@@ -22,7 +38,7 @@
         top: 0px;
     }
     100% {
-        background: green;
+        background: #00b894;
         left: 0px;
         top: 0px;
     }
@@ -43,38 +59,64 @@
         top: 0px;
     }
     100% {
-        background: green;
+        background: #00b894;
         left: 0px;
         top: 0px;
     }
 }
 
-.box1 {
-    animation: box1 5s;
-    -webkit-animation: box1 5s;
-    width: 10vw;
+.box span {
+    line-height: 50px;
+    width: 100%;
+    /* margin: 0 auto; */
+    text-align: center;
+}
+
+#box1 {
+    animation: box1 2s;
+    -webkit-animation: box1 2s;
+    width: 15vw;
     height: 50px;
     position: absolute;
     background-color: yellow;
     top: 100px;
-    left: 30vw;
+    left: 25vw;
+}
+
+#box2 {
+    animation: box1 2s;
+    -webkit-animation: box1 2s;
+    width: 15vw;
+    height: 50px;
+    position: absolute;
+    background-color: yellow;
+    top: 200px;
+    left: 25vw;
+}
+
+#box3 {
+    animation: box1 2s;
+    -webkit-animation: box1 2s;
+    width: 15vw;
+    height: 50px;
+    position: absolute;
+    background-color: yellow;
+    top: 300px;
+    left: 25vw;
 }
 
 @keyframes box1 {
     0% {
         background: yellow;
         left: -30vw;
-        top: 100px;
     }
     50% {
         background: yellow;
         left: 10vw;
-        top: 100px;
     }
     100% {
         background: yellow;
-        left: 30vw;
-        top: 100px;
+        left: 25vw;
     }
 }
 
