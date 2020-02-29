@@ -11,10 +11,10 @@
 //     }
 // }
 // JS监听设置网站背景
-window.onload = function() {
-    setTimeout(function() {
+// window.onload = function() {
+//     setTimeout(function() {
 
-        document.body.style.background = "url(https://tva3.sinaimg.cn/large/0072Vf1pgy1foxkjbqfwjj31hc0u0000.jpg)";
-    }, 2e3);
+//         document.body.style.background = "url(https://tva3.sinaimg.cn/large/0072Vf1pgy1foxkjbqfwjj31hc0u0000.jpg)";
+//     }, 2e3);
 
 }

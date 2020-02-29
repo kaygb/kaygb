@@ -1,11 +1,48 @@
 body {
     animation: bodyimg 1s;
+    background: url(https://tva3.sinaimg.cn/large/0072Vf1pgy1foxkjbqfwjj31hc0u0000.jpg);
 }
 
 @keyframes bodyimg {
     0% {
         /* background: rgba(255, 255, 255, 1); */
         opacity: 0;
+    }
+    10% {
+        /* background: rgba(255, 255, 255, 1); */
+        opacity: 0.1;
+    }
+    20% {
+        /* background: rgba(255, 255, 255, 1); */
+        opacity: 0.2;
+    }
+    30% {
+        /* background: rgba(255, 255, 255, 1); */
+        opacity: 0.3;
+    }
+    40% {
+        /* background: rgba(255, 255, 255, 1); */
+        opacity: 0.4;
+    }
+    50% {
+        /* background: rgba(255, 255, 255, 1); */
+        opacity: 0.5;
+    }
+    60% {
+        /* background: rgba(255, 255, 255, 1); */
+        opacity: 0.6;
+    }
+    70% {
+        /* background: rgba(255, 255, 255, 1); */
+        opacity: 0.7;
+    }
+    80% {
+        /* background: rgba(255, 255, 255, 1); */
+        opacity: 0.8;
+    }
+    90% {
+        /* background: rgba(255, 255, 255, 1); */
+        opacity: 0.9;
     }
     100% {
         /* background: rgba(255, 255, 255, 0); */
@@ -65,43 +102,43 @@ body {
     }
 }
 
-.box span {
-    line-height: 50px;
-    width: 100%;
-    /* margin: 0 auto; */
+.box {
+    display: block;
+}
+
+.kaygb_url {
+    line-height: 100px;
+    font-size: 2em;
     text-align: center;
+    color: #fff;
+    font-weight: bolder;
+    padding: 20px;
 }
 
-#box1 {
-    animation: box1 2s;
-    -webkit-animation: box1 2s;
-    width: 15vw;
-    height: 50px;
-    position: absolute;
-    background-color: yellow;
-    top: 100px;
-    left: 25vw;
-}
-
-#box2 {
-    animation: box1 2s;
-    -webkit-animation: box1 2s;
-    width: 15vw;
-    height: 50px;
-    position: absolute;
-    background-color: yellow;
-    top: 200px;
-    left: 25vw;
-}
-
+#box1,
+#box2,
 #box3 {
     animation: box1 2s;
     -webkit-animation: box1 2s;
     width: 15vw;
-    height: 50px;
+    height: 100px;
     position: absolute;
     background-color: yellow;
-    top: 300px;
+    line-height: 100px;
+}
+
+#box1 {
+    top: 30vh;
+    left: 25vw;
+}
+
+#box2 {
+    top: 50vh;
+    left: 25vw;
+}
+
+#box3 {
+    top: 70vh;
     left: 25vw;
 }
 
@@ -123,7 +160,9 @@ body {
 .header h1 {
     float: left;
     color: #fff;
-    animation: biaoti 3s;
+    animation: biaoti 1s;
+    background-color: seagreen;
+    padding: 20px;
 }
 
 @keyframes biaoti {
