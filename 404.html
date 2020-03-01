@@ -6,17 +6,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>风也温柔</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/5.12.1/css/all.min.css">
+    <link rel="icon" type="image/ico" href="//gravatar.kaygb.top/avatar/4cc893d113dd74ceca73f9863f2c5446/">
+    <!-- <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/5.12.1/css/all.min.css"> -->
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" type="text/css" href="https://file.kaygb.top/static_css/zhifeiji/fly.css">
-    <script src="https://file.kaygb.top/static_css/zhifeiji/js/paper-full.min.js"></script> -->
+    <style>
+        body {
+            background-attachment: fixed;
+        }
+        
+        div {
+            display: block;
+        }
+        
+        .main {
+            max-width: 300px;
+            height: 600px;
+            max-height: 600px;
+            border: 0px solid #eee;
+            margin: 50px auto;
+            background-color: rgba(255, 255, 255, 0.7);
+            box-shadow: 1px 1px 5px 5px rgba(128, 128, 128, 0.4);
+            -moz-box-shadow: 1px 1px 5px 5px rgba(128, 128, 128, 0.4);
+            border-radius: 5px;
+        }
+        
+        .main img {
+            width: 100%;
+            height: auto;
+            max-height: 300px;
+            border-radius: 5px 5px 0 0;
+        }
+        
+        .logo {
+            float: left;
+            line-height: 100px;
+            margin-left: 20px;
+        }
+        
+        .content {
+            line-height: 80px;
+            /* margin: 0 auto; */
+            font-size: 1.6em;
+            font-weight: bold;
+            text-align: center;
+        }
+        /*  进度条 */
+        
+        #myProgress {
+            width: 100%;
+            background-color: #ddd;
+        }
+        
+        #myBar {
+            width: 0%;
+            height: 10px;
+            background-color: rgb(255, 58, 117);
+            text-align: center;
+            line-height: 30px;
+            color: white;
+        }
+        
+        .eas1cn a {
+            margin: 0 auto;
+            width: 200px;
+            display: block;
+        }
+        
+        .footer {
+            /* text-decoration: none; */
+            text-align: center;
+            line-height: 60px;
+        }
+        
+        .newurl {
+            text-align: center;
+            margin: 20px auto;
+        }
+        
+        .footer a,
+        .footer a:hover,
+        .footer a:active,
+        .footer a:link,
+        .footer a:visited {
+            color: #000;
+            text-decoration: none;
+        }
+    </style>
 </head>
 
 <body>
-    <!-- <canvas id="triangle-lost-in-space" resize="true"></canvas>
-
-    <script type="text/javascript" src="https://file.kaygb.top/static_css/zhifeiji/js/fly.js"></script> -->
 
     <div class="container">
         <div class="row">
@@ -26,13 +104,18 @@
                         <img src="https://file.kaygb.top/static_image/kaygb-logo/tx.png" alt="风也温柔">
 
                     </div>
+                    <!-- 进度条 -->
                     <div id="myProgress">
                         <div id="myBar"></div>
                     </div>
 
                     <div class="content">换新域名了哦~</div>
+                    <div class="gourl">
+                        <div class="newurl">客官稍等，正在跳转~</div>
+                        <div id="newurl" class="newurl"></div>
+                    </div>
                     <div class="eas1cn">
-                        <a href="https://eas1.cn" class="btn btn-info" role="button" id="eas1cn">EAS1.CN</a>
+                        <a href="javascript:void(0);" onclick="goUrl()" class="btn btn-info" role="button" id="eas1cn">点击加速</a>
                     </div>
 
 
@@ -47,8 +130,17 @@
         </div>
     </div>
     <script>
-        move();
+        var newurl = "eas1.cn"; //新域名
 
+        var rp_url = window.location.href.replace(window.location.hostname, newurl);
+        document.getElementById("newurl").innerHTML = rp_url;
+
+        function goUrl() {
+            window.location.href = rp_url;
+        }
+
+        move(); //调用进度条
+        // 进度条
         function move() {
             var elem = document.getElementById("myBar");
             var width = 0;
@@ -57,11 +149,10 @@
             function frame() {
                 if (width >= 100) {
                     clearInterval(id);
-                    // window.location.href = "https://eas1.cn";
+                    window.location.href = rp_url;
                 } else {
                     width++;
                     elem.style.width = width + '%';
-                    // elem.innerHTML = width * 1 + '%';
                 }
             }
         }
@@ -69,8 +160,7 @@
         //JS监听设置网站背景
         window.onload = function() {
             setTimeout(function() {
-
-                document.body.style.background = "url(https://acg.wgb.ink/acgurl.php)";
+                document.body.style.background = "url(https://acg.wgb.ink/acgurl.php?return=ssl)";
             }, 2e3);
 
         }
