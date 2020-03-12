@@ -4,6 +4,13 @@ body {
      */
     /* background: url(https://cn.bing.com//th?id=OHR.ElPit_ZH-CN1174143508_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp); */
     font-family: fywr;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
 }
 
 @font-face {
@@ -58,56 +65,16 @@ body {
     }
 }
 
-.left {
-    background-color: #00b894;
-    width: 30vw;
+#zhezhao {
+    background-color: #34495e;
+    width: 100vw;
     /* min-width: 30vh; */
     height: 100vh;
     position: absolute;
     z-index: -9999;
     animation: myfirst 2s;
-    -webkit-animation: left1 2s;
+    /* -webkit-animation: left1 2s; */
     opacity: 0.5;
-    /* Safari 与 Chrome */
-}
-
-@keyframes left1 {
-    0% {
-        background: red;
-        left: -60vh;
-        top: 0px;
-    }
-    50% {
-        background: blue;
-        left: -10vw;
-        top: 0px;
-    }
-    100% {
-        background: #00b894;
-        left: 0px;
-        top: 0px;
-    }
-}
-
-@-webkit-keyframes left1
-/* Safari 与 Chrome */
-
-{
-    0% {
-        background: red;
-        left: -60vh;
-        top: 0px;
-    }
-    50% {
-        background: blue;
-        left: -10vw;
-        top: 0px;
-    }
-    100% {
-        background: #00b894;
-        left: 0px;
-        top: 0px;
-    }
 }
 
 .box {
@@ -127,28 +94,33 @@ body {
 #box1,
 #box2,
 #box3 {
-    animation: box1 2s;
-    -webkit-animation: box1 2s;
-    width: 15vw;
+    width: 20vw;
     height: 100px;
     position: absolute;
     background-color: yellow;
     line-height: 100px;
+    border-radius: 10px;
 }
 
 #box1 {
     top: 30vh;
-    left: 25vw;
+    left: 5vw;
+    animation: box1 2s;
+    -webkit-animation: box1 2s;
 }
 
 #box2 {
     top: 50vh;
-    left: 25vw;
+    left: 10vw;
+    animation: box2 2s;
+    -webkit-animation: box2 2s;
 }
 
 #box3 {
     top: 70vh;
-    left: 25vw;
+    left: 15vw;
+    animation: box3 2s;
+    -webkit-animation: box3 2s;
 }
 
 @keyframes box1 {
@@ -156,14 +128,39 @@ body {
         background: yellow;
         left: -30vw;
     }
-    /* 50% {
-        background: yellow;
-        left: 10vw;
-    } */
     100% {
         background: yellow;
-        left: 25vw;
+        left: 5vw;
     }
+}
+
+@keyframes box2 {
+    0% {
+        background: yellow;
+        left: -30vw;
+    }
+    100% {
+        background: yellow;
+        left: 10vw;
+    }
+}
+
+@keyframes box3 {
+    0% {
+        background: yellow;
+        left: -30vw;
+    }
+    100% {
+        background: yellow;
+        left: 15vw;
+    }
+}
+
+.headerbac {
+    width: 100%;
+    background: #00b894;
+    position: fixed;
+    height: 100px;
 }
 
 .header h1 {
