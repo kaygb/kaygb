@@ -1,6 +1,14 @@
 body {
     animation: bodyimg 1s;
-    background: url(https://tva3.sinaimg.cn/large/0072Vf1pgy1foxkjbqfwjj31hc0u0000.jpg);
+    /* background: url(https://tva3.sinaimg.cn/large/0072Vf1pgy1foxkjbqfwjj31hc0u0000.jpg);
+     */
+    /* background: url(https://cn.bing.com//th?id=OHR.ElPit_ZH-CN1174143508_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp); */
+    font-family: fywr;
+}
+
+@font-face {
+    font-family: 'fywr';
+    src: url('https://file.kaygb.top/static_css/fywr.ttf');
 }
 
 @keyframes bodyimg {
@@ -109,6 +117,7 @@ body {
 .kaygb_url {
     line-height: 100px;
     font-size: 2em;
+    font-family: fywr;
     text-align: center;
     color: #fff;
     font-weight: bolder;
@@ -147,10 +156,10 @@ body {
         background: yellow;
         left: -30vw;
     }
-    50% {
+    /* 50% {
         background: yellow;
         left: 10vw;
-    }
+    } */
     100% {
         background: yellow;
         left: 25vw;
@@ -163,6 +172,7 @@ body {
     animation: biaoti 1s;
     background-color: seagreen;
     padding: 20px;
+    font-family: fywr;
 }
 
 @keyframes biaoti {
