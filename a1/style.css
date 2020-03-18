@@ -1,0 +1,166 @@
+body {
+    font-size: 18px;
+    color: #6c767d;
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: #ebf1f5;
+    height: 100vh;
+    min-height: 800px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: .5em;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 1em;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Playfair Display', serif;
+    color: black;
+}
+
+.card {
+    border: none;
+    padding: 80px 80px 50px;
+    border-radius: 0;
+}
+
+.container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.my-card {
+    box-shadow: 0px 5px 15px 5px rgb(203, 221, 232);
+}
+
+strike {
+    color: red;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.btn-primary {
+    font-family: 'Playfair Display', serif;
+    box-shadow: 0px 5px 15px 5px rgb(203, 221, 232);
+    padding: 12px 40px;
+    max-width: 225px;
+    transition: ease;
+}
+
+.btn-primary:hover {
+    box-shadow: 5px -2px 15px 0px rgb(203, 221, 232);
+}
+
+.btn-secondary {
+    font-family: 'Playfair Display', serif;
+    box-shadow: 0px 5px 15px 5px rgb(203, 221, 232);
+    padding: 12px 40px;
+    max-width: 225px;
+    transition: ease;
+}
+
+.btn-secondary:hover {
+    box-shadow: 5px -2px 15px 0px rgb(203, 221, 232);
+}
+
+.social {
+    padding-left: 0;
+}
+
+.social p {
+    margin-bottom: 0;
+}
+
+.social li {
+    list-style: none;
+    float: left;
+    margin-right: 15px;
+}
+
+.card-text {
+    margin-bottom: 20px;
+}
+
+.social .fa {
+    font-size: 24px;
+}
+
+.photo-bg {
+    /* background-image: url(assets/background.jpg); */
+    background-image: url(https://tva2.sinaimg.cn/large/a15b4afegy1fmvjl0jx89j21hc0u0k5s.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+@media (max-width: 1199px) {
+    body {
+        min-height: 600px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h2,
+    .social .fa {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    h4,
+    p {
+        font-size: 14px;
+    }
+    .card {
+        padding: 50px 50px 30px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .photo-bg {
+        min-height: calc(100vh - 500px);
+    }
+}
+
+@media(max-width:991px) {
+    .photo-bg {
+        background-position: top;
+        min-height: calc(90vh - 440px);
+    }
+}
+
+@media(max-width: 767px) {
+    .container {
+        position: relative;
+        top: 0;
+        transform: translateY(0);
+    }
+    .photo-bg {
+        height: 180px;
+    }
+    .card {
+        padding: 20px;
+    }
+}

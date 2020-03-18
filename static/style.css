@@ -1,8 +1,5 @@
 body {
     animation: bodyimg 1s;
-    /* background: url(https://tva3.sinaimg.cn/large/0072Vf1pgy1foxkjbqfwjj31hc0u0000.jpg);
-     */
-    /* background: url(https://cn.bing.com//th?id=OHR.ElPit_ZH-CN1174143508_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp); */
     font-family: fywr;
     padding: 0;
     margin: 0;
@@ -81,105 +78,31 @@ body {
     display: block;
 }
 
-.kaygb_url {
-    line-height: 100px;
-    font-size: 2em;
-    font-family: fywr;
-    text-align: center;
-    color: #fff;
-    font-weight: bolder;
-    padding: 20px;
-}
-
-#box1,
-#box2,
-#box3 {
-    width: 20vw;
-    height: 100px;
-    position: absolute;
-    background-color: yellow;
-    line-height: 100px;
-    border-radius: 10px;
-}
-
-#box1 {
-    top: 30vh;
-    left: 5vw;
-    animation: box1 2s;
-    -webkit-animation: box1 2s;
-}
-
-#box2 {
-    top: 50vh;
-    left: 10vw;
-    animation: box2 2s;
-    -webkit-animation: box2 2s;
-}
-
-#box3 {
-    top: 70vh;
-    left: 15vw;
-    animation: box3 2s;
-    -webkit-animation: box3 2s;
-}
-
-@keyframes box1 {
-    0% {
-        background: yellow;
-        left: -30vw;
-    }
-    100% {
-        background: yellow;
-        left: 5vw;
-    }
-}
-
-@keyframes box2 {
-    0% {
-        background: yellow;
-        left: -30vw;
-    }
-    100% {
-        background: yellow;
-        left: 10vw;
-    }
-}
-
-@keyframes box3 {
-    0% {
-        background: yellow;
-        left: -30vw;
-    }
-    100% {
-        background: yellow;
-        left: 15vw;
-    }
-}
-
-.headerbac {
-    width: 100%;
-    background: #00b894;
+#left {
     position: fixed;
-    height: 100px;
+    max-width: 500px;
+    width: 100%;
+    background-color: rgb(109, 37, 37);
+    height: 100%;
+    z-index: 99;
+    display: block;
+    text-align: center;
 }
 
-.header h1 {
-    float: left;
-    color: #fff;
-    animation: biaoti 1s;
-    background-color: seagreen;
-    padding: 20px;
-    font-family: fywr;
+.main {
+    /* display: table; */
 }
 
-@keyframes biaoti {
-    0% {
-        color: rgba(255, 255, 255, 0);
-    }
-    50% {
-        color: rgba(255, 255, 255, 0.5);
-    }
-    100% {
-        color: rgba(255, 255, 255, 1);
-    }
+.main-content {
+    /* display: table-cell; */
+    margin: 30px;
+    vertical-align: middle;
+    position: relative;
+    z-index: 800;
+    padding: 0 60px;
+}
+
+.main-content img {
+    width: 100px;
+    border-radius: 50%;
 }
