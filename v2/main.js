@@ -31,3 +31,4 @@ const ap = new APlayer({
     }],
     autoplay: true
 });
+console.log('\n' + ' %c PersonalWebSite by 风也温柔 | KAYGB ' + ' %c https://eas1.cn/ ' + '\n' + '\n', 'color: #fadfa3; background: #030307; padding:5px 0;', 'background: #fadfa3; padding:5px 0;');
