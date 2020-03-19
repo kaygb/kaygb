@@ -26,7 +26,7 @@ const ap = new APlayer({
         artist: apart,
         url: apurl,
         cover: apcover,
-        lrc: aplrc,
+        lrc: aplrc
 
     }],
     autoplay: true
