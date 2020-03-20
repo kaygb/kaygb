@@ -3,16 +3,7 @@ let music_id = "1413325844";
 let music_name = "Black Catcher";
 let music_artist = "ビッケブランカ";
 
-// var jsonurl = "https://v1.itooi.cn/netease/song?id=1413325844";
-// $.get(jsonurl, function(data) {
-//     alert(data);
-// });
-// console.log(json);
 
-function read() {
-    console.log(json.songs.al.name); //输出键为“cc”所对应的值
-}
-// read();
 let apname = music_name;
 let apart = music_artist;
 let apurl = 'https://v1.itooi.cn/netease/url?id=' + music_id + '&quality=flac';
@@ -31,4 +22,31 @@ const ap = new APlayer({
     }],
     autoplay: true
 });
+
+//beta
+// var jsonurl = "https://acg.wgb.ink/netease.php?id=" + music_id;
+
+// var obj = JSON.parse(jsonurl);
+
+// function loadXMLDoc() {
+//     var xmlhttp;
+//     if (window.XMLHttpRequest) {
+//         //  IE7+, Firefox, Chrome, Opera, Safari 浏览器执行代码
+//         xmlhttp = new XMLHttpRequest();
+//     } else {
+//         // IE6, IE5 浏览器执行代码
+//         xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+//     }
+//     xmlhttp.onreadystatechange = function() {
+//         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+//             var jsonurl1 = xmlhttp.responseText;
+//             return jsonurl1;
+//         }
+//     }
+//     xmlhttp.open("GET", jsonurl, true);
+//     xmlhttp.send();
+// }
+// loadXMLDoc();
+
+
 console.log('\n' + ' %c PersonalWebSite by 风也温柔 | KAYGB ' + ' %c https://eas1.cn/ ' + '\n' + '\n', 'color: #fadfa3; background: #030307; padding:5px 0;', 'background: #fadfa3; padding:5px 0;');
