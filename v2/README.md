@@ -2,6 +2,8 @@
 
 记得修改内容哦！
 
+![](https://cdn.jsdelivr.net/gh/kaygb/blog-images/img/20200320215228.png)
+
 ## 更换网易云音乐歌单
 
 找到index.html大概57行的位置，修改data-id的值为你的歌单id
