@@ -1,27 +1,27 @@
-//音乐设置
-let music_id = "1413325844";
-let music_name = "Black Catcher";
-let music_artist = "ビッケブランカ";
+// 音乐设置
+// let music_id = "1413325844";
+// let music_name = "Black Catcher";
+// let music_artist = "ビッケブランカ";
 
 
-let apname = music_name;
-let apart = music_artist;
-let apurl = 'https://v1.itooi.cn/netease/url?id=' + music_id + '&quality=flac';
-let apcover = 'https://v1.itooi.cn/netease/pic?id=' + music_id;
-let aplrc = 'https://v1.itooi.cn/netease/lrc?id=' + music_id;
-const ap = new APlayer({
-    container: document.getElementById('aplayer'),
-    fixed: true,
-    audio: [{
-        name: apname,
-        artist: apart,
-        url: apurl,
-        cover: apcover,
-        lrc: aplrc
+// let apname = music_name;
+// let apart = music_artist;
+// let apurl = 'https://v1.itooi.cn/netease/url?id=' + music_id + '&quality=flac';
+// let apcover = 'https://v1.itooi.cn/netease/pic?id=' + music_id;
+// let aplrc = 'https://v1.itooi.cn/netease/lrc?id=' + music_id;
+// const ap = new APlayer({
+//     container: document.getElementById('aplayer'),
+//     fixed: true,
+//     audio: [{
+//         name: apname,
+//         artist: apart,
+//         url: apurl,
+//         cover: apcover,
+//         lrc: aplrc
 
-    }],
-    autoplay: true
-});
+//     }],
+//     autoplay: true
+// });
 
 //beta
 // var jsonurl = "https://acg.wgb.ink/netease.php?id=" + music_id;
