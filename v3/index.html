@@ -34,10 +34,11 @@
 
                 <p>Catch me:</p>
                 <div class="row">
-                    <button id="test1" class="btn btn-primary col-lg-4">BLOG</button>
+                    <button id="kaygb-blog" class="btn btn-primary col-lg-4">BLOG</button>
                     <!-- <a href="//eas1.cn" target="_blank" class="btn btn-primary col-lg-4">BLOG</a> -->
                     <a href="https://github.com/kaygb/kaygb/tree/master/v2" target="_blank" class="btn btn-secondary col-lg-4">GitHub</a>
-                    <a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=i@eas1.cn" target="_blank" class="btn btn-success col-lg-4">Send a Mail</a>
+                    <!-- <a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=i@eas1.cn" target="_blank" class="btn btn-success col-lg-4">Send a Mail</a> -->
+                    <button id="kaygb-mail" class="btn btn-success col-lg-4">Send a Mail</button>
                 </div>
 
 
@@ -82,15 +83,30 @@
     <script>
         // layer.msg('hello');
         //弹出一个页面层
-        $('#test1').on('click', function() {
+        $('#kaygb-blog').on('click', function() {
             layer.open({
                 type: 2,
                 title: '风也温柔',
                 shadeClose: true,
                 shade: false,
+                anim: 2,
+                // maxWidth: 800,
                 // maxmin: true, //开启最大化最小化按钮
                 area: ['100%', '100%'],
                 content: '//eas1.cn/'
+            });
+        });
+        $('#kaygb-mail').on('click', function() {
+            layer.open({
+                type: 2,
+                title: '风也温柔',
+                shadeClose: true,
+                shade: false,
+                anim: 2,
+                // maxWidth: 800,
+                // maxmin: true, //开启最大化最小化按钮
+                area: ['100%', '100%'],
+                content: '//mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=i@eas1.cn'
             });
         });
     </script>
