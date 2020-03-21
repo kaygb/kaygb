@@ -2,7 +2,14 @@
 
 记得修改内容哦！
 
-预览地址：[https://www.kaygb.top](https://www.kaygb.top)
+## 预览地址
+
+我的：
+[https://www.kaygb.top](https://www.kaygb.top)
+
+朋友的：
+
+[https://www.say521.cn](https://www.say521.cn)
 
 ![](https://cdn.jsdelivr.net/gh/kaygb/blog-images/img/20200320215228.png)
 
