@@ -13,12 +13,16 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css.map">
+
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/layer/1.8.5/layer.min.js"></script>
+
 </head>
 
 <body>
-    <div id="frame" class="">
+    <!-- <div id="frame" class="">
         <iframe src="https://eas1.cn" frameborder="0" width="100%" height="100%"></iframe>
-    </div>
+    </div> -->
     <div id="main" class="container">
         <div class="row my-card justify-content-center">
             <div class="col-lg-4 photo-bg"></div>
@@ -37,6 +41,7 @@
                     <a href="https://github.com/kaygb/kaygb/tree/master/v2" target="_blank" class="btn btn-secondary col-lg-4">GitHub</a>
                     <a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=i@eas1.cn" target="_blank" class="btn btn-success col-lg-4">Send a Mail</a>
                 </div>
+                <button id="test1" class="btn btn-primary col-lg-4">TEST1</button>
 
                 <h4 class="mt-4">or, keep your eyes on</h4>
                 <ul class="social mt-1">
@@ -61,18 +66,44 @@
     </div>
     <!-- <div class="aplayer" data-id="20173709" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-volume="0.8"></div> -->
     <!-- aplayer -->
-    <script src="https://cdn.jsdelivr.net/gh/kaygb/kaygb@master/v3/layer/layer.js"></script>
-    <script>
-    </script>
+
+
     <script>
         var meting_api = 'https://api.mizore.cn/meting/api.php?server=:server&type=:type&id=:id'
     </script>
     <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script>
     <!-- end_aplayer -->
-    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+
     <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
     <script defer src="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/kaygb/kaygb@master/js/main.js"></script>
+    <script>
+        //弹出一个页面层
+        $('#test1').on('click', function() {
+            layer.open({
+                type: 2,
+                title: false,
+                closeBtn: 0, //不显示关闭按钮
+                shade: [0],
+                area: ['340px', '215px'],
+                offset: 'rb', //右下角弹出
+                time: 2000, //2秒后自动关闭
+                anim: 2,
+                content: ['//eas1.cn/', 'no'], //iframe的url，no代表不显示滚动条
+                end: function() { //此处用于演示
+                    layer.open({
+                        type: 2,
+                        title: '很多时候，我们想最大化看，比如像这个页面。',
+                        shadeClose: true,
+                        shade: false,
+                        maxmin: true, //开启最大化最小化按钮
+                        area: ['893px', '600px'],
+                        content: '//eas1.cn/'
+                    });
+                }
+            });
+        });
+    </script>
 
 </html>
