@@ -16,4 +16,5 @@
 ## 如何获取网易云歌单id
 
 网页浏览器打开music.163.com，登陆你的账户，然后点击你的歌单，在地址栏可以看到id
+
 ![](https://cdn.jsdelivr.net/gh/kaygb/blog-images/img/20200320170205.png)
