@@ -5,37 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdn.staticfile.org/layer/1.8.5/layer.min.js"></script>
+
 </head>
 
 <body>
     <button id="test1" class="btn btn-primary col-lg-4">TEST1</button>
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/kaygb/kaygb@master/v3/layer/layer.js"></script>
     <script>
         layer.msg('hello');
         //弹出一个页面层
         $('#test1').on('click', function() {
             layer.open({
                 type: 2,
-                title: false,
-                closeBtn: 0, //不显示关闭按钮
-                shade: [0],
-                area: ['340px', '215px'],
-                offset: 'rb', //右下角弹出
-                time: 2000, //2秒后自动关闭
-                anim: 2,
-                content: ['//eas1.cn/', 'no'], //iframe的url，no代表不显示滚动条
-                end: function() { //此处用于演示
-                    layer.open({
-                        type: 2,
-                        title: '很多时候，我们想最大化看，比如像这个页面。',
-                        shadeClose: true,
-                        shade: false,
-                        maxmin: true, //开启最大化最小化按钮
-                        area: ['893px', '600px'],
-                        content: '//eas1.cn/'
-                    });
-                }
+                title: '风也温柔',
+                shadeClose: true,
+                shade: false,
+                maxmin: true, //开启最大化最小化按钮
+                area: ['100%', '100%'],
+                content: '//eas1.cn/'
             });
         });
     </script>
