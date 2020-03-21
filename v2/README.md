@@ -18,3 +18,9 @@
 网页浏览器打开music.163.com，登陆你的账户，然后点击你的歌单，在地址栏可以看到id
 
 ![](https://cdn.jsdelivr.net/gh/kaygb/blog-images/img/20200320170205.png)
+
+## 版权声明
+
+模板作者并不是我，我是从以下链接获取到的源码，版权归原作者所有！
+
+模板来源：http://www.cssmoban.com/cssthemes/9357.shtml
