@@ -1,10 +1,17 @@
 ## 个人主页源码
 
-V3版本，正在开发中、、、
+V3版本目前已经可以使用
+
+## 特性
+
+v3添加了layer弹出层，pc端以窗口显示，手机端直接打开新页面。
+如果不喜欢弹出层，可以下载v2
+
+https://github.com/kaygb/kaygb/tree/master/v2
 
 ## 预览地址
 
-我的：
+我的（最新）：
 
 [https://www.kaygb.top](https://www.kaygb.top)
 
@@ -16,7 +23,7 @@ V3版本，正在开发中、、、
 
 ## 更换网易云音乐歌单
 
-找到index.html大概57行的位置，修改data-id的值为你的歌单id
+找到index.html大概66行的位置，修改data-id的值为你的歌单id
 ~~~html
 <div class="aplayer" data-id="20173709" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-volume="0.8"></div>
 ~~~
