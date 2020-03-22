@@ -1,6 +1,10 @@
 ## 这里存放一些静态主页源码
 
-v2是目前在使用中的个人主页
+v3是目前在使用中的个人主页
+
+https://www.kaygb.top/
+
+https://eas1.cn/
 
 ## 鸣谢
 jsdeliver
