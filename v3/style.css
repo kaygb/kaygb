@@ -148,6 +148,11 @@ footer p {
     font-size: 12px;
 }
 
+#kaygb-blog-a,
+#kaygb-mail-a {
+    display: none;
+}
+
 @media (max-width: 1199px) {
     body {
         min-height: 900px;
@@ -195,6 +200,14 @@ footer p {
     }
     .card {
         padding: 20px;
+    }
+    #kaygb-blog-a,
+    #kaygb-mail-a {
+        display: block;
+    }
+    #kaygb-blog,
+    #kaygb-mail {
+        display: none;
     }
 }
 
