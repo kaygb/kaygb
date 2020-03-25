@@ -223,3 +223,7 @@ footer p {
     top: 5%;
     left: 5%;
 }
+
+#aplayer {
+    z-index: 20000000;
+}
