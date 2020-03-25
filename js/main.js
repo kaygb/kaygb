@@ -28,6 +28,4 @@ $('#kaygb-mail').on('click', function() {
         content: '//mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=i@eas1.cn'
     });
 });
-
-
 console.log('\n' + ' %c PersonalWebSite by 风也温柔 ' + ' %c https://eas1.cn/posts/165.html ' + '\n' + '\n', 'color: #fff; background: #fd79a8; padding:5px 0;', 'background: #FFF; padding:5px 0;');
