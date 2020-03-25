@@ -2,6 +2,8 @@ body {
     font-size: 18px;
     color: #6c767d;
     background-color: #ebf1f5;
+    background-image: url(https://cn01.img.twinkle222.cn/imgs/2020/03/f735a00354a3c282.jpg);
+    background-attachment: fixed;
     height: 100vh;
     min-height: 800px;
 }
@@ -60,7 +62,7 @@ h4 {
 
 .card {
     border: none;
-    padding: 80px 80px 50px;
+    padding: 80px 80px 0px;
     border-radius: 0;
 }
 
@@ -71,7 +73,7 @@ h4 {
 }
 
 .my-card {
-    box-shadow: 0px 5px 15px 5px rgb(203, 221, 232);
+    /* box-shadow: 0px 5px 15px 5px rgb(203, 221, 232); */
 }
 
 strike {
@@ -172,7 +174,7 @@ footer p {
         font-size: 14px;
     }
     .card {
-        padding: 50px 50px 30px;
+        padding: 50px 50px 0px;
     }
 }
 
