@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/5.12.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css.map">
 
 </head>
 
@@ -63,8 +62,23 @@
     </div>
     <div id="aplayer" class="aplayer" data-order="random" data-id="20173709" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-volume="0.8"></div>
     <!-- aplayer -->
-    <script src="https://cdn.jsdelivr.net/gh/kaygb/kaygb@master/js/main.js"></script>
+
+
+
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script>
+    <!-- end_aplayer -->
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script defer src="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/kaygb/kaygb@master/layer/layer.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/kaygb/kaygb@master/js/v3.js"></script>
     <script>
+        // var windowWidth = $(window).width();
+        // if (windowWidth < 767) {
+        //     // do something
+        //     $("#aplayer").remove();
+        // }
         //弹出一个页面层
         $('#kaygb-blog').on('click', function() {
             layer.open({
@@ -89,12 +103,5 @@
             });
         });
     </script>
-    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script>
-    <!-- end_aplayer -->
-    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
-    <script defer src="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/kaygb/kaygb@master/layer/layer.js"></script>
 
 </html>
