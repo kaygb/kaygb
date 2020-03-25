@@ -4,6 +4,8 @@ body {
     background-color: #ebf1f5;
     background-image: url(https://cn01.img.twinkle222.cn/imgs/2020/03/f735a00354a3c282.jpg);
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     min-height: 800px;
 }
