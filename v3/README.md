@@ -1,6 +1,6 @@
 ## 个人主页源码
 
-V3版本目前已经可以使用
+V3版本目前已经可以使用,https://eas1.cn/165.html
 
 ## 特性
 
@@ -19,6 +19,8 @@ https://github.com/kaygb/kaygb/tree/master/v2
 
 [https://www.say521.cn](https://www.say521.cn)
 
+[https://www.zeruns.tech/](https://www.zeruns.tech/)
+
 ![](https://cdn.jsdelivr.net/gh/kaygb/blog-images/img/20200320215228.png)
 
 ## 更换网易云音乐歌单
@@ -36,6 +38,9 @@ https://github.com/kaygb/kaygb/tree/master/v2
 
 ## 版权声明
 
+
+
 模板作者并不是我，我是从以下链接获取到的源码，版权归原作者所有！
+
 
 模板来源：http://www.cssmoban.com/cssthemes/9357.shtml

@@ -2,6 +2,8 @@
 
 记得修改内容哦！
 
+https://eas1.cn/165.html
+
 ## 预览地址
 
 我的：
@@ -11,6 +13,8 @@
 朋友的：
 
 [https://www.say521.cn](https://www.say521.cn)
+
+[https://www.zeruns.tech/](https://www.zeruns.tech/)
 
 ![](https://cdn.jsdelivr.net/gh/kaygb/blog-images/img/20200320215228.png)
 
