@@ -21,6 +21,8 @@ https://github.com/kaygb/kaygb/tree/master/v2
 
 [https://www.zeruns.tech/](https://www.zeruns.tech/)
 
+正在使用的可以提交issue放在这里展示哦！
+
 ![](https://cdn.jsdelivr.net/gh/kaygb/blog-images/img/20200320215228.png)
 
 ## 更换网易云音乐歌单
