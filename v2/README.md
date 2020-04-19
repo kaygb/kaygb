@@ -8,7 +8,7 @@ https://eas1.cn/165.html
 
 我的：
 
-[https://www.kaygb.top](https://www.kaygb.top)
+[https://www.eas1.cn](https://www.eas1.cn)
 
 朋友的：
 

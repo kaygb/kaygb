@@ -2,7 +2,7 @@
 
 v3是目前在使用中的个人主页
 
-https://www.kaygb.top/
+https://www.eas1.cn/
 
 https://eas1.cn/
 
