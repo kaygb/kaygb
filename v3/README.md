@@ -13,7 +13,7 @@ https://github.com/kaygb/kaygb/tree/master/v2
 
 我的（最新）：
 
-[https://www.eas1.cn](https://www.eas1.cn)
+[https://www.kaygb.top](https://www.kaygb.top)
 
 朋友的：
 
