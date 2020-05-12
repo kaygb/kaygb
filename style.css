@@ -154,7 +154,10 @@ footer p {
     font-size: 12px;
 }
 
-#kaygb-blog-a,
+#kaygb-blog-a {
+    display: block;
+}
+
 #kaygb-mail-a {
     display: none;
 }
