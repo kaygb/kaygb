@@ -88,6 +88,8 @@ strike {
     border-radius: 0;
     margin: 5px 0;
     width: 100%;
+    padding: 12px 40px;
+    transition: ease;
 }
 
 .btn-primary {
