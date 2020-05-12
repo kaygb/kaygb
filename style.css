@@ -156,7 +156,7 @@ footer p {
 
 #kaygb-blog-a,
 #kaygb-mail-a {
-    display: block;
+    display: none;
 }
 
 @media (max-width: 1199px) {
