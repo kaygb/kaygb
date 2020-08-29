@@ -10,4 +10,4 @@ https://eas1.cn/
 
 
 [![](https://data.jsdelivr.com/v1/package/gh/kaygb/kaygb/badge)](https://www.jsdelivr.com/package/gh/kaygb/kaygb)
-[![](https://img.shields.io/github/license/kaygb/kaygb)](https://github.com/kaygb/kaygb/LICENSE)
+[![](https://img.shields.io/github/license/kaygb/kaygb)](https://github.com/kaygb/kaygb/blob/master/LICENSE)
