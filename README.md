@@ -1,6 +1,7 @@
+<img align="right" src="https://github-readme-stats.vercel.app/api?username=kaygb&show_icons=true&icon_color=0366d6&bg_color=ffffff&hide_title=true&hide=contribs&include_all_commits=true" alt="kaygb's github stats"/>
 Hi,there!
 
-I'm kaygb, a java developer. I like everything that Interests me.
+I'm kaygb, a java developer(android). I like everything that Interests me.
 
 Home: https://www.kaygb.com/
 
