@@ -12,4 +12,5 @@ Blog: https://blog.kaygb.com/
 [![](https://data.jsdelivr.com/v1/package/gh/kaygb/kaygb/badge)](https://www.jsdelivr.com/package/gh/kaygb/kaygb)
 [![](https://img.shields.io/github/license/kaygb/kaygb)](https://github.com/kaygb/kaygb/blob/master/LICENSE)
 
-<img src="https://i.loli.net/2020/11/16/ihQZOnesXK71MYr.png" style="height:500px" />
+[![](https://i.loli.net/2020/11/29/tTI94Yde7WmCfSV.png)](https://www.pixiv.net/artworks/85318529)
+
