@@ -7,7 +7,7 @@ Home: https://www.kaygb.com/
 Blog: https://blog.kaygb.com/
 
 <img src="https://github-readme-stats.vercel.app/api?username=kaygb&show_icons=true&icon_color=0366d6&bg_color=ffffff&hide_title=true&hide=contribs&include_all_commits=true" alt="kaygb's github stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaygb" alt="kaygb's Top langs"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaygb&layout=compact" alt="kaygb's Top langs"/>
 
 
 [![](https://data.jsdelivr.com/v1/package/gh/kaygb/kaygb/badge)](https://www.jsdelivr.com/package/gh/kaygb/kaygb)
