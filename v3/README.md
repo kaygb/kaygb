@@ -1,6 +1,6 @@
 ## 个人主页源码
 
-V3版本目前已经可以使用,https://eas1.cn/165.html
+V3版本目前已经可以使用,https://www.vwmwv.cn/archives/25/
 
 ## 特性
 
