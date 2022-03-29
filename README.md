@@ -3,7 +3,8 @@
 
 I'm kaygb, a java developer. I like everything that Interests me.
 
-WebSite: https://170601.xyz/
+WebSite: https://www.170601.xyz/
+Blog: https://blog.170601.xyz/
 
 [![](https://data.jsdelivr.com/v1/package/gh/kaygb/kaygb/badge)](https://www.jsdelivr.com/package/gh/kaygb/kaygb)
 [![](https://img.shields.io/github/license/kaygb/kaygb)](https://github.com/kaygb/kaygb/blob/master/LICENSE)
