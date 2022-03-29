@@ -1,13 +1,10 @@
+## 全新版本已经发布
+
+请前往：https://github.com/kaygb/KZHomePage 下载使用
+
 ## 个人主页源码
 
-V3版本目前已经可以使用,https://www.vwmwv.cn/archives/25/
-
-## 特性
-
-v3添加了layer弹出层，pc端以窗口显示，手机端直接打开新页面。
-如果不喜欢弹出层，可以下载v2
-
-https://github.com/kaygb/kaygb/tree/master/v2
+V3版本目前已经可以使用,https://blog.170601.xyz/archives/25.html
 
 ## 预览地址
 
