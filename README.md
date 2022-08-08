@@ -4,7 +4,7 @@
 I'm kaygb, a java developer. I like everything that Interests me.
 
 - WebSite: https://www.170601.xyz/
-- Blog: https://blog.170601.xyz/
+- Blog: https://www.kezez.com/
 - QQ Group： [962303102](https://qm.qq.com/cgi-bin/qm/qr?k=-tso4BmPVXPSgqNjPhRCIg4GYZ8Llu_e&jump_from=webapi)
 
 [![](https://data.jsdelivr.com/v1/package/gh/kaygb/kaygb/badge)](https://www.jsdelivr.com/package/gh/kaygb/kaygb)
