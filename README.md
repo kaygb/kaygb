@@ -1,7 +1,7 @@
 ## Hi,there! 
 
 
-I'm kaygb, a java developer. I like everything that Interests me.
+I'm kaygb, a backend developer. I like everything that Interests me.
 
 - WebSite: https://www.170601.xyz/
 - Blog: https://www.kezez.com/
